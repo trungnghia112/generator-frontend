@@ -1,6 +1,6 @@
 {
   "name": "generator-frontend",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The tool will build a front end directory structure",
   "homepage": "https://github.com/trungnghia112/generator-frontend",
   "author": {

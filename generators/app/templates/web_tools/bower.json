@@ -1,0 +1,25 @@
+{
+  "name": "<%= appName %>",
+  "homepage": "",
+  "description": "<%= appDescription %>",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "<%= appAuthor %> <<%= appEmail %>>"
+  ],
+  "license": "<%= appLicense %>",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6",
+    "modernizr": "~2.8.3",
+    "jquery-placeholder": "mathiasbynens/jquery-placeholder#~2.1.3"
+  }
+}
