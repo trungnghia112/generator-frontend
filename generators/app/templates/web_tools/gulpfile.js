@@ -96,6 +96,7 @@ gulp.task('minify:js', ['scripts'], () => {
 //*** CORE JS minify task
 gulp.task('minify:corejs', ['coreScripts'], () => {
   return gulp.src([path.temp + '/third_party/*.js', '!' + path.temp + '/third_party/*.min.js'])
+    .pipe($.uglify())
     .pipe($.rename('core.min.js'))
     .pipe(gulp.dest(path.dist));
 });
