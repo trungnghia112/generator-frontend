@@ -169,6 +169,6 @@ module.exports = generators.Base.extend({
         this.bowerInstall();
     },
     end: function () {
-        this.spawnCommand('grunt', ['setup']);
+        this.spawnCommand('gulp', ['build']);
     }
 });
